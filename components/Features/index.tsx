@@ -12,7 +12,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Sistem inspeksi alat kesehatan, mampu melakukan klasifikasi 'Good' atau 'Not Good' dengan memanfaatkan teknologi Computer Vision dan Pengolahan Citra."
             center
           />
 

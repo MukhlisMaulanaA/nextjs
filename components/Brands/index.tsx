@@ -4,33 +4,33 @@ import Image from "next/image";
 const brandsData: Brand[] = [
   {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    name: "Python",
+    href: "https://www.python.org/",
+    image: "/images/brands/python-3.svg",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
+    name: "Nvidia",
+    href: "https://www.nvidia.com/en-us/",
+    image: "/images/brands/nvidia.svg",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
+    name: "OpenCV",
+    href: "https://opencv.org/",
+    image: "/images/brands/opencv.svg",
   },
   {
     id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
+    name: "VsCode",
+    href: "https://code.visualstudio.com/",
+    image: "/images/brands/vscode.svg",
   },
   {
     id: 5,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    name: "ScikitLearn",
+    href: "https://scikit-learn.org/stable/",
+    image: "/images/brands/scikit-learn.svg",
   },
 ];
 

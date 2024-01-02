@@ -11,7 +11,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/desain-sihacov.png"
                 alt="about image"
                 fill
               />
@@ -21,29 +21,26 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Artificial Intelligence
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Sistem ini dibangun menggunakan bahasa pemrograman Python. Didalamnya kami menggunakan beberapa library untuk menunjang kebutuhan sistem seperti scikit-image untuk menggunakan algoritma Structural Similiarity Index Measure (SSIM)
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Sistem Kendali
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Mengintegrasikan sistem dengan perangkat keras yaitu conveyor. Ketika kamera mendeteksi objek berada di tengah frame video, maka sistem akan memberi sinyal high atau low, untuk mengehentikan conveyor selama dua detik, dalam interval waktu tersebut, proses inspeksi melakukan tugasnya.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Sistem Instrumentasi
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Menggunakan Lampu LED sebagai indikator ketika mendeteksi objek. Square Light digunakan untuk membantu penerangan dari kamera atau webcam yang digunakan. Sistem ini juga memiliki sensor Proximity Photoelectric, ketika sensor mendeteksi keberadaan objek maka sistem akan mulai menginspeksinya.
                 </p>
               </div>
             </div>
