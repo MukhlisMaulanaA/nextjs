@@ -3,18 +3,18 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Belajar Pemrograman Python: Pengenalan Dasar Python",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Apa itu Python ? . Mau belajar bahasa pemrograman Python, tapi masih bingun mulainya dari mana?",
+    image: "/images/blog/blog-details1.png",
     author: {
-      name: "Samuyl Joshi",
+      name: "Mukhlis Maulana Al-Fakih",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Software Specialist",
     },
-    tags: ["creative"],
-    publishDate: "2025",
-    href: "/blog-details/",
+    tags: ["programming"],
+    publishDate: "2024",
+    href: "/blog-details/blog1/",
     
   },
   {
@@ -30,7 +30,7 @@ const blogData: Blog[] = [
     },
     tags: ["computer"],
     publishDate: "2025",
-    href: "/blog-details2/",
+    href: "/blog-details/blog2/",
 
   },
   {
@@ -46,7 +46,7 @@ const blogData: Blog[] = [
     },
     tags: ["design"],
     publishDate: "2025",
-    href: "/blog-details3/",
+    href: "/blog-details/blog3/",
 
   },
 ];
