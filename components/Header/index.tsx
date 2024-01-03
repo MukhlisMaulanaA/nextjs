@@ -25,15 +25,15 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
-  // submenu handler
-  const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(-1);
-    } else {
-      setOpenIndex(index);
-    }
-  };
+  // // submenu handler
+  // const [openIndex, setOpenIndex] = useState(-1);
+  // const handleSubmenu = (index) => {
+  //   if (openIndex === index) {
+  //     setOpenIndex(-1);
+  //   } else {
+  //     setOpenIndex(index);
+  //   }
+  // };
 
   return (
     <>
@@ -113,7 +113,7 @@ const Header = () => {
                           </Link>
                         ) : (
                           <>
-                            <a
+                            {/* <a
                               onClick={() => handleSubmenu(index)}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                             >
@@ -126,8 +126,8 @@ const Header = () => {
                                   />
                                 </svg>
                               </span>
-                            </a>
-                            <div
+                            </a> */}
+                            {/* <div
                               className={`submenu relative top-full left-0 rounded-md bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
                                 openIndex === index ? "block" : "hidden"
                               }`}
@@ -141,7 +141,7 @@ const Header = () => {
                                   {submenuItem.title}
                                 </Link>
                               ))}
-                            </div>
+                            </div> */}
                           </>
                         )}
                       </li>
@@ -150,7 +150,7 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
+                {/* <Link
                   href="/signin"
                   className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
@@ -161,7 +161,7 @@ const Header = () => {
                   className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Sign Up
-                </Link>
+                </Link> */}
                 <div>
                   <ThemeToggler />
                 </div>

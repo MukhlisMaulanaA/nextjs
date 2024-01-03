@@ -23,7 +23,7 @@ const Blog = () => {
             ))}
           </div>
 
-          <div
+          {/* <div
             className="wow fadeInUp -mx-4 flex flex-wrap"
             data-wow-delay=".15s"
           >
@@ -84,7 +84,7 @@ const Blog = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

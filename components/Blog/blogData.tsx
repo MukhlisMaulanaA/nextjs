@@ -14,6 +14,8 @@ const blogData: Blog[] = [
     },
     tags: ["creative"],
     publishDate: "2025",
+    href: "/blog-details/",
+    
   },
   {
     id: 2,
@@ -28,6 +30,8 @@ const blogData: Blog[] = [
     },
     tags: ["computer"],
     publishDate: "2025",
+    href: "/blog-details2/",
+
   },
   {
     id: 3,
@@ -42,6 +46,8 @@ const blogData: Blog[] = [
     },
     tags: ["design"],
     publishDate: "2025",
+    href: "/blog-details3/",
+
   },
 ];
 export default blogData;
