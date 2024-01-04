@@ -156,7 +156,7 @@ const BlogDetailsPage = () => {
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                    &quot;Python is a programming language that lets you work quickly and integrate systems more effectively.&quot;
+                      "Python is a programming language that lets you work quickly and integrate systems more effectively."
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
