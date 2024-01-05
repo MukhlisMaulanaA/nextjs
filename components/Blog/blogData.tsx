@@ -6,7 +6,7 @@ const blogData: Blog[] = [
     title: "Belajar Pemrograman Python: Pengenalan Dasar Python",
     paragraph:
       "Apa itu Python ? . Mau belajar bahasa pemrograman Python, tapi masih bingun mulainya dari mana?",
-    image: "/images/blog/blog-details1.png",
+    image: "/images/blog/blog-detail-01.png",
     author: {
       name: "Mukhlis Maulana Al-Fakih",
       image: "/images/blog/author-01.png",
@@ -19,17 +19,17 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Jetson Nano Developer Kit: Platform Kecerdasan Buatan",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Jetson Nano ini dirilis pada pertengahan 2019 mangusung tagline 'AI For Everyowne' digunakan untuk komputasi AI",
+    image: "/images/blog/blog-detail-02.png",
     author: {
-      name: "Musharof Chy",
+      name: "Mukhlis Maulana Al-Fakih",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Software Specialist",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["technology"],
+    publishDate: "2024",
     href: "/blog-details/blog2/",
 
   },

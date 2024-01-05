@@ -1,5 +1,6 @@
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
+
 import Image from "next/image";
 
 const BlogDetailsPage = () => {
@@ -11,7 +12,7 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  9 simple ways to imporve your design skill
+                  NVIDIA Jetson Nano Developer Kit: Platform Kecerdasan Buatan Untuk Robot Anda
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -28,11 +29,11 @@ const BlogDetailsPage = () => {
                       <div className="w-full">
                         <h4 className="mb-1 text-base font-medium text-body-color">
                           By
-                          <span>Musharof Chy</span>
+                          <span> Mukhlis Maulana Al-Fakih</span>
                         </h4>
                       </div>
                     </div>
-                    <div className="mb-5 flex items-center">
+                    {/* <div className="mb-5 flex items-center">
                       <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
@@ -83,27 +84,25 @@ const BlogDetailsPage = () => {
                         </span>
                         35
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="mb-5">
                     <a
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold text-white"
                     >
-                      Design
+                      Technology
                     </a>
                   </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Jetson Nano, yang dirilis oleh NVIDIA, si perusahaan pembuat GPU (Graphical Processor Unit). Berdasarkan situs resminya, Jetson Nano adalah System On Module (SoM) dan developer kit dari keluarga Nvidia Jetson.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/blog/blog-detail-02.png"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -111,54 +110,74 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
-                  </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                    Jetson Nano ini dirilis pada pertenganan 2019 mengusung tagline 'AI For Everyone' bertujuan untuk mendemokratisasi peralatan komputasi embedded khususnya bidang kecerdasan buatan. Untuk tujuan tersebut Nvidia membekali Jetson Nano ini dengan spesifikasi yang cukup mumpuni untuk melakukan komputasi yang berat.
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+                    Spesifikasi Jetson Nano
                   </h3>
+                  <div className="mb-10 w-full overflow-hidden rounded">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                      <Image
+                        src="/images/blog/tabel-blog-02.png"
+                        alt="image"
+                        height={745}
+                        width={668}
+                        className="object-cover object-center"
+                      />
+                    </div>
+                  </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    Anda dapat merujuk pada halaman dokumentasi Nvidia untuk melihat perbandingan antar modul pada keluarga 
+                    <span>
+                      <a className="text-primary hover:text-dark" href="https://developer.nvidia.com/embedded/jetson-modules"> Nvidia Jetson Nano pada tautan ini</a>
+                    </span>
                   </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
-                    </li>
-                  </ul>
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                    Unboxing
+                  </h3>
+                  <div className="mb-10 w-full overflow-hidden rounded">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                      <Image
+                        src="/images/blog/jetson-nano.jpg"
+                        alt="image"
+                        fill
+                        className="object-cover object-center"
+                      />
+                    </div>
+                  </div>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Di dalam kotaknya terdapat carier board dan Jetson Nano beserta heatsink yang telah terpasang. Selain itu juga terdapat petunjuk pemakaian dan diagram bagaimana menggunakan Jetson Nano untuk pertama kalinya.
+                  </p>
+                  <div className="mb-10 w-full overflow-hidden rounded">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                      <Image
+                        src="/images/blog/developerKit-jetson-nano.jpg"
+                        alt="image"
+                        height={666}
+                        width={768}
+                        className="object-cover object-center"
+                      />
+                    </div>
+                  </div>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Gambar di atas merupakan ilustrasi dan fungsi masing-masing bagian board Jetson Nano.
+                  </p>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Ukuran Jetson Nano Developer Kit dapat dibilang lebih besar ketimbang board lainnya seperti Raspberry Pi 4 misalnya. Jetson Nano Developer Kit ini memiliki dimensi 80x100mm, dibandingkan dengan Raspberry Pi 4 yang berdimensi 88x58x19.5mm.
+                  </p>
+                  <div className="mb-10 w-full overflow-hidden rounded">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                      <Image
+                        src="/images/blog/compare-jetson-raspi.jpg"
+                        alt="image"
+                        fill
+                        className="object-cover object-center"
+                      />
+                    </div>
+                  </div>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                      Nvidia Jetson Nano Developer Kit adalah microcomputer yang cukup powerfull untuk menjalankan komputasi Artificial Intelligence, seperti Machine Learning, Deep Learning, Computer Vison, dan sebagainya. Tapi, perlu diingat bahwa Jetson Nano ini memiliki harga yang cukup mahal. Jadi, pertimbangkan kembali apakah project anda perlu Jetson Nano sebagai komputasinya atau hanya cukup dengan Raspberry Pi.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -302,11 +321,12 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    Referensi:
+                    <span>
+                      <a className="text-primary" href="https://embeddednesia.com/v1/jetson-nano-developer-kit-platform-kecerdasan-buatan-untuk-robot-anda/"> embeddednesia </a>
+                    </span>
                   </p>
-                  <div className="items-center justify-between sm:flex">
+                  {/* <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h5 className="mb-3 text-sm font-medium text-body-color">
                         Popular Tags :
@@ -325,7 +345,7 @@ const BlogDetailsPage = () => {
                         <SharePost />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
