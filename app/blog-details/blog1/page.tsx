@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import React from "react";
+import { WhatsappIcon, WhatsappShareButton } from "react-share";
 
 const BlogDetailsPage = () => {
   return (
@@ -110,7 +114,7 @@ const BlogDetailsPage = () => {
                     Apa itu Python?
                   </h3>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Python merupakan bahasa pemrograman tinkat tinggi yang diracik oleh 
+                    Python merupakan bahasa pemrograman tinkat tinggi yang diracik oleh
                     <span>
                       <a href="https://id.wikipedia.org/wiki/Guido_van_Rossum" className="text-primary"> Guido Van Rossum </a>
                     </span>
@@ -308,26 +312,29 @@ const BlogDetailsPage = () => {
                       <a href="https://www.petanikode.com/python-linux/" className="text-primary"> Petanikode </a>
                     </span>
                   </p>
-                  {/* <div className="items-center justify-between sm:flex">
-                    <div className="mb-5">
+                  <div className="items-center justify-between sm:flex">
+                    {/* <div className="mb-5">
                       <h5 className="mb-3 text-sm font-medium text-body-color">
                         Popular Tags :
                       </h5>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
+                        {/* <TagButton text="Design" />
                         <TagButton text="Development" />
                         <TagButton text="Info" />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="mb-5">
                       <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
-                        <SharePost />
+                        <WhatsappShareButton 
+                          url={'https://web-sihacov.vercel.app/blog-details/blog1/'} title="Lorem Ipsum">
+                            <WhatsappIcon size={30} round/>
+                        </WhatsappShareButton>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,7 +1,8 @@
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
+"use client";
 
 import Image from "next/image";
+import React from "react";
+import { WhatsappShareButton, WhatsappIcon } from "react-share";
 
 const BlogDetailsPage = () => {
   return (
@@ -326,26 +327,19 @@ const BlogDetailsPage = () => {
                       <a className="text-primary" href="https://embeddednesia.com/v1/jetson-nano-developer-kit-platform-kecerdasan-buatan-untuk-robot-anda/"> embeddednesia </a>
                     </span>
                   </p>
-                  {/* <div className="items-center justify-between sm:flex">
-                    <div className="mb-5">
-                      <h5 className="mb-3 text-sm font-medium text-body-color">
-                        Popular Tags :
-                      </h5>
-                      <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
-                      </div>
-                    </div>
+                  <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
-                        <SharePost />
+                        <WhatsappShareButton
+                          url={'https://web-sihacov.vercel.app/blog-details/blog2/'} title="">
+                            <WhatsappIcon size={30} round />
+                          </WhatsappShareButton>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

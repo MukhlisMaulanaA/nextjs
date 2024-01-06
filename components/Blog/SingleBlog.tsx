@@ -1,6 +1,8 @@
 import { Blog } from "@/types/blog";
 import Image from "next/image";
 import Link from "next/link";
+import { WhatsappShareButton } from "react-share";
+import { withRouter } from "next/router";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, image, paragraph, author, tags, publishDate, href } = blog;
@@ -47,6 +49,8 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
                 Date
               </h4>
               <p className="text-xs text-body-color">{publishDate}</p>
+            </div>
+            <div>
             </div>
           </div>
         </div>
