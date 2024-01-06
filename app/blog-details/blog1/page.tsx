@@ -329,7 +329,8 @@ const BlogDetailsPage = () => {
                       </h5>
                       <div className="flex items-center sm:justify-end">
                         <WhatsappShareButton 
-                          url={'https://web-sihacov.vercel.app/blog-details/blog1/'} title="Lorem Ipsum">
+                          url={'https://web-sihacov.vercel.app/blog-details/blog1/'} 
+                          title="Belajar Pemrograman Python: Pengenalan Dasar Python">
                             <WhatsappIcon size={30} round/>
                         </WhatsappShareButton>
                       </div>

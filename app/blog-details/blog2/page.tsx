@@ -334,7 +334,8 @@ const BlogDetailsPage = () => {
                       </h5>
                       <div className="flex items-center sm:justify-end">
                         <WhatsappShareButton
-                          url={'https://web-sihacov.vercel.app/blog-details/blog2/'} title="">
+                          url={'https://web-sihacov.vercel.app/blog-details/blog2/'} 
+                          title="NVIDIA Jetson Nano Developer Kit: Platform Kecerdasan Buatan Untuk Robot Anda">
                             <WhatsappIcon size={30} round />
                           </WhatsappShareButton>
                       </div>
