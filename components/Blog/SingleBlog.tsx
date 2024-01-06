@@ -1,18 +1,21 @@
 import { Blog } from "@/types/blog";
 import Image from "next/image";
 import Link from "next/link";
-import { WhatsappShareButton } from "react-share";
-import { withRouter } from "next/router";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { title, image, paragraph, author, tags, publishDate, href } = blog;
+  const { id, title, image, paragraph, author, tags, publishDate, href } = blog;
   return (
     <>
       <div
         className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
         data-wow-delay=".1s"
       >
-        <Link href={href} className="relative block h-[220px] w-full">
+        <Link 
+          href={href} 
+          className={
+            blog.id == 3 ? "pointer-events-none opacity-50 cursor-not-allowed relative block h-[220px] w-full" : "relative block h-[220px] w-full"
+          }
+          >
           <span className="absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white">
             {tags[0]}
           </span>
@@ -22,7 +25,11 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <h3>
             <Link
               href={href}
-              className="mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
+              aria-disabled={ blog.id == 3 }
+              className= {
+                blog.id == 3 ? "pointer-events-none opacity-50 cursor-not-allowed mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl" : "mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
+              }
+              tabIndex={blog.id == 3 ? -1 : undefined}
             >
               {title}
             </Link>

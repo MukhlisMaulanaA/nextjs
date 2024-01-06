@@ -9,12 +9,12 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-detail-01.png",
     author: {
       name: "Mukhlis Maulana Al-Fakih",
-      image: "/images/blog/author-01.png",
+      image: "/images/blog/mukhlis-author.jpg",
       designation: "Software Specialist",
     },
     tags: ["programming"],
     publishDate: "2024",
-    href: "/blog-details/blog1/",
+    href: "/blog-details/belajar-python/",
     
   },
   {
@@ -25,28 +25,28 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-detail-02.png",
     author: {
       name: "Mukhlis Maulana Al-Fakih",
-      image: "/images/blog/author-02.png",
+      image: "/images/blog/mukhlis-author.jpg",
       designation: "Software Specialist",
     },
     tags: ["technology"],
     publishDate: "2024",
-    href: "/blog-details/blog2/",
+    href: "/blog-details/nvidia-jetson/",
 
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Lorem Ipsum Dolor Sit Amet Consectur.",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/coming-soon.png",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["design"],
+    tags: ["Lorem"],
     publishDate: "2025",
-    href: "/blog-details/blog3/",
+    href: "#",
 
   },
 ];
