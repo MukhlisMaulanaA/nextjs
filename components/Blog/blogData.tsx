@@ -10,7 +10,7 @@ const blogData: Blog[] = [
     author: {
       name: "Mukhlis Maulana Al-Fakih",
       image: "/images/blog/mukhlis-author.jpg",
-      designation: "Software Specialist",
+      designation: "Software Engineer",
     },
     tags: ["programming"],
     publishDate: "2024",
@@ -26,7 +26,7 @@ const blogData: Blog[] = [
     author: {
       name: "Mukhlis Maulana Al-Fakih",
       image: "/images/blog/mukhlis-author.jpg",
-      designation: "Software Specialist",
+      designation: "Software Engineer",
     },
     tags: ["technology"],
     publishDate: "2024",
