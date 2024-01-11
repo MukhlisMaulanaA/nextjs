@@ -1,4 +1,6 @@
-<h1 align="center" id="title">WEB-SIHACOV</h1>
+<h1 align="center" id="title">
+  WEB-SIHACOV
+</h1>
 
 <p align="center"><img src="https://socialify.git.ci/MukhlisMaulanaA/web-sihacov/image?description=1&amp;descriptionEditable=Website%20Project%20Sistem%20Inspeksi%20Alat%20Kesehatan%20menggunakan%20%0AComputer%20Vision%20pada%20proses%20Quality%20Control.&amp;language=1&amp;name=1&amp;owner=1&amp;theme=Light" alt="project-image"></p>
 
@@ -8,6 +10,7 @@
     <a href="https://web-sihacov.vercel.app/" style="font-weight: semi-bold; color: #525CEB;"> Website Sihacov </a>
   </span>
   </p>
+
 <h2>💻 Built with</h2>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -21,5 +24,6 @@
 	<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 	<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 	<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-
 </div>
+
+<h5 align="center">Copyright © 2024 SIHACOV</h5>
