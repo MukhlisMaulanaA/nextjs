@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Registration",
     paragraph:
-      "Sistem ini memiliki fitur register yang memungkinkan user dapat memasukan gambar sebagai referensi dan parameter untuk proses inspeksi melakukan klasifikasi pada objek.",
+      "Sistem ini memiliki fitur register yang memungkinkan user untuk membuat dataset yang dapat disesuaikan dengan keperluan.",
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Inspection",
     paragraph:
-      "Melakukan pemeriksaan kualitas menggunakan dua algoritma pengolahan citra yaitu Structural Similiarity Index Measure (SSIM) dan deteksi tepi (Edge Detection)",
+      "Melakukan pemeriksaan kualitas menggunakan Teknologi Pengolahan Citra Digital untuk mendeteksi estimasi luas objek dengan satuan cm2.",
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Classification",
     paragraph:
-      "Pada proses inspeksi, sistem ini mampu melakukan klasifikasi objek dengan dua kategori yaitu 'Good' atau 'Not Good'. Proses klasifikasi ini ditentukan berdasarkan hasil inspeksi menggunakan dua algoritma pengolahan citra.",
+      "Proses klasifikasi menggunakan algoritma berbasis Artificial Neural Network (ANN) yaitu MLPClassifier.",
   },
   {
     id: 1,
@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "Integrated System",
     paragraph:
-      "Software dan Hardware akan saling terintegrasi. Kendali hardware akan diatur dalam sistem yang dibuat.",
+      "Software dan Hardware akan saling terintegrasi. Kendali hardware akan dikonfigurasi dalam sistem yang dibuat.",
   },
   {
     id: 1,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Powerfully Inspection",
     paragraph:
-      "Sistem ini dapat berjalan secara maksimal meskipun menggunakan dua algoritma pengolahan citra sekaligus, dibekali dengan teknologi khusus yaitu perangkat NVIDIA Jetson Nano.",
+      "Sistem ini menggunakan microcomputer yaitu Raspberry Pi 4. Dengan menggunakan algoritma dan dataset yang tidak begitu berat, sistem ini dapat berjalan dengan baik.",
   },
 ];
 export default featuresData;

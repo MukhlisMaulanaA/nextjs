@@ -21,26 +21,26 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Artificial Intelligence
+                  Artificial Neural Network
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Sistem ini dibangun menggunakan bahasa pemrograman Python. Didalamnya kami menggunakan beberapa library untuk menunjang kebutuhan sistem seperti scikit-image untuk menggunakan algoritma Structural Similiarity Index Measure (SSIM)
+                  Sistem ini menggunakan algoritma berbasi Artificial Neural Network (ANN) untuk melakukan klasifikasi.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Sistem Kendali
+                  PID Control
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Mengintegrasikan sistem dengan perangkat keras yaitu conveyor. Ketika kamera mendeteksi objek berada di tengah frame video, maka sistem akan memberi sinyal high atau low, untuk mengehentikan conveyor selama dua detik, dalam interval waktu tersebut, proses inspeksi melakukan tugasnya.
+                  Dengan menggunakan metode kendali PID, komponen sistem dapat berjalan dengan stabil.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Sistem Instrumentasi
+                  Register
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Menggunakan Lampu LED sebagai indikator ketika mendeteksi objek. Square Light digunakan untuk membantu penerangan dari kamera atau webcam yang digunakan. Sistem ini juga memiliki sensor Proximity Photoelectric, ketika sensor mendeteksi keberadaan objek maka sistem akan mulai menginspeksinya.
+                  Fitur Register yang memungkinkan user dapat membuat dataset yang dapat disesuaikan oleh kebutuhan.
                 </p>
               </div>
             </div>

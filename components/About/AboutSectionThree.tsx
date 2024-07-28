@@ -1,5 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import Link from "next/link";
+
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -24,8 +26,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Konfigurasi Umum"
-                paragraph="Secara umum konfigurasi dapat dilihat pada diagram blok. Sistem ini memiliki input dari Kamera, yang akan diproses oleh sistem dengan menggunakan bahasa pemrograman Python, dan memiliki dua output yaitu monitor dan penyimpanan lokal."
+                title="Manual Book"
+                paragraph="Petunjuk penggunaan alat ini dapat Anda lihat pada Manual Book."
                 mb="44px"
               />
 
@@ -33,29 +35,21 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Image Processing" />
-                    <List text="MLPClassifier" />
-                    <List text="PID Control" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Register" />
-                    <List text="Inspection" />
-                    <List text="Real Time" />
-                  </div>
+                <div className="flex flex-wrap">
+                  <Link
+                    href="#features"
+                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80">Download Manual Book</Link>
                 </div>
               </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
               <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                className="wow fadeInUp relative mx-auto aspect-[20/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/diagram-sihacov.png"
+                  src="/images/about/manual-book.png"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"

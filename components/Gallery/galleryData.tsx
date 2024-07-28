@@ -10,13 +10,13 @@ const galleryData: Gallery[] = [
   {
     id: 2,
     title: "Lorem Ipsum Title Gallery 2",
-    image: "/images/gallery/gallery2.png",
+    image: "/images/gallery/gallery2.jpg",
     date: "3 Januari 2024",
   },
   {
     id: 3,
     title: "Lorem Ipsum Title Gallery 3",
-    image: "/images/gallery/gallery3.png",
+    image: "/images/gallery/gallery3.jpg",
     date: "3 Januari 2024",
   },
   {
