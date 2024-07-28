@@ -31,8 +31,8 @@ const Hero = () => {
                     Read More..
                   </Link>
                   <Link
-                    href="#"
-                    className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30 pointer-events-none opacity-50 cursor-not-allowed"
+                    href="https://github.com/MukhlisMaulanaA/web-sihacov"
+                    className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Star on GitHub
                   </Link>
