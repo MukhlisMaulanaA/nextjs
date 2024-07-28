@@ -24,7 +24,7 @@ const AboutSectionTwo = () => {
                   Artificial Neural Network
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Sistem ini menggunakan algoritma berbasi Artificial Neural Network (ANN) untuk melakukan klasifikasi.
+                  Sistem ini menggunakan algoritma berbasi Artificial Neural Network (ANN) untuk melakukan klasifikasi nilai deteksi PCD.
                 </p>
               </div>
               <div className="mb-9">
