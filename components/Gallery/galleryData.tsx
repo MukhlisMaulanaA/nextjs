@@ -22,7 +22,7 @@ const galleryData: Gallery[] = [
   {
     id: 4,
     title: "Lorem Ipsum Title Gallery 4",
-    image: "/images/gallery/gallery4.png",
+    image: "/images/gallery/gallery4.jpg",
     date: "3 Januari 2024",
   },
 ];
