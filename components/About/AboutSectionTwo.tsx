@@ -11,7 +11,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/desain-sihacov.png"
+                src="/images/about/poster.png"
                 alt="about image"
                 fill
               />
