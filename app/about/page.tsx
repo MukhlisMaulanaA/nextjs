@@ -1,5 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import AboutSectionThree from "@/components/About/AboutSectionThree";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 const AboutPage = () => {
@@ -7,10 +8,11 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Sistem Inspeksi Alat Kesehatan menggunakan Computer Vision pada proses Quality Control."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <AboutSectionThree />
     </>
   );
 };

@@ -8,7 +8,7 @@ const Gallery = () => {
       <div className="container">
         <SectionTitle
           title="Gallerys Room"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Dokumentasi kegiatan selama pembuatan alat."
           center
         />
 

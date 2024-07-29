@@ -55,7 +55,7 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/diagram-sihacov.png"
+                  src="/images/about/config-umum.png"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"

@@ -7,7 +7,7 @@ const Teams = () => {
       <div className="container">
         <SectionTitle
           title="Meet Our Teams"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Mahasiswa S1 Teknik Elektro Universitas Singaperbangsa Karawang 2020."
           center
         />
       </div>

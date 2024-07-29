@@ -18,7 +18,7 @@ const Video = () => {
           center
           mb="80px"
         />
-          
+
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
@@ -26,7 +26,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/video2.png" alt="video image" fill />
+                <Image src="/images/video/video3.png" alt="video image" fill />
                 <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
@@ -51,7 +51,7 @@ const Video = () => {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="Exmq6sY8dok"
+        videoId="Isg9OXlu1X0"
         onClose={() => setOpen(false)}
       />
 
