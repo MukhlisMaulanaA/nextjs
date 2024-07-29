@@ -37,7 +37,7 @@ const AboutSectionOne = () => {
               >
                 <div className="flex flex-wrap">
                   <Link
-                    href="/images/manual-book.pdf"
+                    href="/images/manual-book-sihacov.pdf"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80" download>Download Manual Book</Link>
                 </div>
               </div>
